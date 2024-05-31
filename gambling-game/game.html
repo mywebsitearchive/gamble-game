@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="header">
+
+        </div>
+        <div id="board">
+            <div id="stats">
+<button onclick="randomize()" class="mainbtn" id="sb" disabled>shuffle</button>
+<button onclick="reset()" class="mainbtn">reset</button>
+<div id="saldo" class="screen">
+    0 €
+</div>
+<div class="label">Stake:</div>
+<input oninput="getStake()" type="text" id="add">
+
+
+
+<div class="label">Total:</div>
+<div id="wins" class="screen2"></div>
+<div class="label">Spent:</div>
+<div id="spent" class="screen2"></div>
+<div class="label">Balance:</div>
+<div id="balance" class="screen2"></div>
+
+
+            </div>
+            <div id ="message">
+    
+            </div>
+        <div id="buttons1">
+            <button class="sidebtn" onclick="col1()"></button><button class="sidebtn" onclick="col2()"></button><button class="sidebtn" onclick="col3()"></button>
+        </div>        
+        <div id="table">
+            <img id="image1" src="h2.png">
+            <img id="image2" src="h2.png">
+            <img id="image3" src="h2.png">
+            <img id="image4" src="h2.png">
+            <img id="image5" src="h2.png">
+            <img id="image6" src="h2.png">
+            <img id="image7" src="h2.png">
+            <img id="image8" src="h2.png">
+            <img id="image9" src="h2.png">
+        </div>
+        <div id="buttons2">
+            <button class="sidebtn2" onclick="row1()"></button>
+            <button class="sidebtn2" onclick="row2()"></button>
+            <button class="sidebtn2" onclick="row3()"></button>
+        </div>
+</div>
+        <script src="index.js"></script>
+    </body>
+</html>
