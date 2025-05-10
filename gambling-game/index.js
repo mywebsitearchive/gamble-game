@@ -31,15 +31,15 @@ let hideSB=()=>{
 let reset=()=>{
     hideSB()
     unChoose()
-    document.getElementById("image1").src = "h2.png"
-    document.getElementById("image2").src = "h2.png"
-    document.getElementById("image3").src = "h2.png"
-    document.getElementById("image4").src = "h2.png"
-    document.getElementById("image5").src = "h2.png"
-    document.getElementById("image6").src = "h2.png"
-    document.getElementById("image7").src = "h2.png"
-    document.getElementById("image8").src = "h2.png"
-    document.getElementById("image9").src = "h2.png"
+    document.getElementById("image1").src = "gambling-game/h2.png"
+    document.getElementById("image2").src = "gambling-game/h2.png"
+    document.getElementById("image3").src = "gambling-game/h2.png"
+    document.getElementById("image4").src = "gambling-game/h2.png"
+    document.getElementById("image5").src = "gambling-game/h2.png"
+    document.getElementById("image6").src = "gambling-game/h2.png"
+    document.getElementById("image7").src = "gambling-game/h2.png"
+    document.getElementById("image8").src = "gambling-game/h2.png"
+    document.getElementById("image9").src = "gambling-game/h2.png"
     document.getElementById("table").style.opacity = "0.7"
 }
 let choose1=()=>{
@@ -146,245 +146,245 @@ let row3=()=>{
 let functionimage1=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image1").src = "a2.png"; document.getElementById("image1").value="1"
+        document.getElementById("image1").src = "gambling-game/a2.png"; document.getElementById("image1").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image1").src = "b2.png"; document.getElementById("image1").value="2"
+        document.getElementById("image1").src = "gambling-game/b2.png"; document.getElementById("image1").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image1").src = "c2.png"; document.getElementById("image1").value="3"
+        document.getElementById("image1").src = "gambling-game/c2.png"; document.getElementById("image1").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image1").src = "d2.png"; document.getElementById("image1").value="4"
+        document.getElementById("image1").src = "gambling-game/d2.png"; document.getElementById("image1").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image1").src = "e2.png"; document.getElementById("image1").value="5"
+        document.getElementById("image1").src = "gambling-game/e2.png"; document.getElementById("image1").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image1").src = "f2.png"; document.getElementById("image1").value="6"
+        document.getElementById("image1").src = "gambling-game/f2.png"; document.getElementById("image1").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image1").src = "g2.png"; document.getElementById("image1").value="7"
+        document.getElementById("image1").src = "gambling-game/g2.png"; document.getElementById("image1").value="7"
     }
     else{
-        document.getElementById("image1").src = "h2.png"; document.getElementById("image1").value="8"
+        document.getElementById("image1").src = "gambling-game/h2.png"; document.getElementById("image1").value="8"
     }
 }
 let functionimage2=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image2").src = "a2.png"; document.getElementById("image2").value="1"
+        document.getElementById("image2").src = "gambling-game/a2.png"; document.getElementById("image2").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image2").src = "b2.png"; document.getElementById("image2").value="2"
+        document.getElementById("image2").src = "gambling-game/b2.png"; document.getElementById("image2").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image2").src = "c2.png"; document.getElementById("image2").value="3"
+        document.getElementById("image2").src = "gambling-game/c2.png"; document.getElementById("image2").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image2").src = "d2.png"; document.getElementById("image2").value="4"
+        document.getElementById("image2").src = "gambling-game/d2.png"; document.getElementById("image2").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image2").src = "e2.png"; document.getElementById("image2").value="5"
+        document.getElementById("image2").src = "gambling-game/e2.png"; document.getElementById("image2").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image2").src = "f2.png"; document.getElementById("image2").value="6"
+        document.getElementById("image2").src = "gambling-game/f2.png"; document.getElementById("image2").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image2").src = "g2.png"; document.getElementById("image2").value="7"
+        document.getElementById("image2").src = "gambling-game/g2.png"; document.getElementById("image2").value="7"
     }
     else{
-        document.getElementById("image2").src = "h2.png"; document.getElementById("image2").value="8"
+        document.getElementById("image2").src = "gambling-game/h2.png"; document.getElementById("image2").value="8"
     }
 }
 let functionimage3=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image3").src = "a2.png"; document.getElementById("image3").value="1"
+        document.getElementById("image3").src = "gambling-game/a2.png"; document.getElementById("image3").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image3").src = "b2.png"; document.getElementById("image3").value="2"
+        document.getElementById("image3").src = "gambling-game/b2.png"; document.getElementById("image3").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image3").src = "c2.png"; document.getElementById("image3").value="3"
+        document.getElementById("image3").src = "gambling-game/c2.png"; document.getElementById("image3").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image3").src = "d2.png"; document.getElementById("image3").value="4"
+        document.getElementById("image3").src = "gambling-game/d2.png"; document.getElementById("image3").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image3").src = "e2.png"; document.getElementById("image3").value="5"
+        document.getElementById("image3").src = "gambling-game/e2.png"; document.getElementById("image3").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image3").src = "f2.png"; document.getElementById("image3").value="6"
+        document.getElementById("image3").src = "gambling-game/f2.png"; document.getElementById("image3").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image3").src = "g2.png"; document.getElementById("image3").value="7"
+        document.getElementById("image3").src = "gambling-game/g2.png"; document.getElementById("image3").value="7"
     }
     else{
-        document.getElementById("image3").src = "h2.png"; document.getElementById("image3").value="8"
+        document.getElementById("image3").src = "gambling-game/h2.png"; document.getElementById("image3").value="8"
     }
 }
 let functionimage4=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image4").src = "a2.png"; document.getElementById("image4").value="1"
+        document.getElementById("image4").src = "gambling-game/a2.png"; document.getElementById("image4").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image4").src = "b2.png"; document.getElementById("image4").value="2"
+        document.getElementById("image4").src = "gambling-game/b2.png"; document.getElementById("image4").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image4").src = "c2.png"; document.getElementById("image4").value="3"
+        document.getElementById("image4").src = "gambling-game/c2.png"; document.getElementById("image4").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image4").src = "d2.png"; document.getElementById("image4").value="4"
+        document.getElementById("image4").src = "gambling-game/d2.png"; document.getElementById("image4").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image4").src = "e2.png"; document.getElementById("image4").value="5"
+        document.getElementById("image4").src = "gambling-game/e2.png"; document.getElementById("image4").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image4").src = "f2.png"; document.getElementById("image4").value="6"
+        document.getElementById("image4").src = "gambling-game/f2.png"; document.getElementById("image4").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image4").src = "g2.png"; document.getElementById("image4").value="7"
+        document.getElementById("image4").src = "gambling-game/g2.png"; document.getElementById("image4").value="7"
     }
     else{
-        document.getElementById("image4").src = "h2.png"; document.getElementById("image4").value="8"
+        document.getElementById("image4").src = "gambling-game/h2.png"; document.getElementById("image4").value="8"
     }
 }
 let functionimage5=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image5").src = "a2.png"; document.getElementById("image5").value="1"
+        document.getElementById("image5").src = "gambling-game/a2.png"; document.getElementById("image5").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image5").src = "b2.png"; document.getElementById("image5").value="2"
+        document.getElementById("image5").src = "gambling-game/b2.png"; document.getElementById("image5").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image5").src = "c2.png"; document.getElementById("image5").value="3"
+        document.getElementById("image5").src = "gambling-game/c2.png"; document.getElementById("image5").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image5").src = "d2.png"; document.getElementById("image5").value="4"
+        document.getElementById("image5").src = "gambling-game/d2.png"; document.getElementById("image5").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image5").src = "e2.png"; document.getElementById("image5").value="5"
+        document.getElementById("image5").src = "gambling-game/e2.png"; document.getElementById("image5").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image5").src = "f2.png"; document.getElementById("image5").value="6"
+        document.getElementById("image5").src = "gambling-game/f2.png"; document.getElementById("image5").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image5").src = "g2.png"; document.getElementById("image5").value="7"
+        document.getElementById("image5").src = "gambling-game/g2.png"; document.getElementById("image5").value="7"
     }
     else{
-        document.getElementById("image5").src = "h2.png"; document.getElementById("image5").value="8"
+        document.getElementById("image5").src = "gambling-game/h2.png"; document.getElementById("image5").value="8"
     }
 }
 let functionimage6=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image6").src = "a2.png"; document.getElementById("image6").value="1"
+        document.getElementById("image6").src = "gambling-game/a2.png"; document.getElementById("image6").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image6").src = "b2.png"; document.getElementById("image6").value="2"
+        document.getElementById("image6").src = "gambling-game/b2.png"; document.getElementById("image6").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image6").src = "c2.png"; document.getElementById("image6").value="3"
+        document.getElementById("image6").src = "gambling-game/c2.png"; document.getElementById("image6").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image6").src = "d2.png"; document.getElementById("image6").value="4"
+        document.getElementById("image6").src = "gambling-game/d2.png"; document.getElementById("image6").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image6").src = "e2.png"; document.getElementById("image6").value="5"
+        document.getElementById("image6").src = "gambling-game/e2.png"; document.getElementById("image6").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image6").src = "f2.png"; document.getElementById("image6").value="6"
+        document.getElementById("image6").src = "gambling-game/f2.png"; document.getElementById("image6").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image6").src = "g2.png"; document.getElementById("image6").value="7"
+        document.getElementById("image6").src = "gambling-game/g2.png"; document.getElementById("image6").value="7"
     }
     else{
-        document.getElementById("image6").src = "h2.png"; document.getElementById("image6").value="8"
+        document.getElementById("image6").src = "gambling-game/h2.png"; document.getElementById("image6").value="8"
     }
 }
 let functionimage7=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image7").src = "a2.png"; document.getElementById("image7").value="1"
+        document.getElementById("image7").src = "gambling-game/a2.png"; document.getElementById("image7").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image7").src = "b2.png"; document.getElementById("image7").value="2"
+        document.getElementById("image7").src = "gambling-game/b2.png"; document.getElementById("image7").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image7").src = "c2.png"; document.getElementById("image7").value="3"
+        document.getElementById("image7").src = "gambling-game/c2.png"; document.getElementById("image7").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image7").src = "d2.png"; document.getElementById("image7").value="4"
+        document.getElementById("image7").src = "gambling-game/d2.png"; document.getElementById("image7").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image7").src = "e2.png"; document.getElementById("image7").value="5"
+        document.getElementById("image7").src = "gambling-game/e2.png"; document.getElementById("image7").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image7").src = "f2.png"; document.getElementById("image7").value="6"
+        document.getElementById("image7").src = "gambling-game/f2.png"; document.getElementById("image7").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image7").src = "g2.png"; document.getElementById("image7").value="7"
+        document.getElementById("image7").src = "gambling-game/g2.png"; document.getElementById("image7").value="7"
     }
     else{
-        document.getElementById("image7").src = "h2.png"; document.getElementById("image7").value="8"
+        document.getElementById("image7").src = "gambling-game/h2.png"; document.getElementById("image7").value="8"
     }
 }
 let functionimage8=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image8").src = "a2.png"; document.getElementById("image8").value="1"
+        document.getElementById("image8").src = "gambling-game/a2.png"; document.getElementById("image8").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image8").src = "b2.png"; document.getElementById("image8").value="2"
+        document.getElementById("image8").src = "gambling-game/b2.png"; document.getElementById("image8").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image8").src = "c2.png"; document.getElementById("image8").value="3"
+        document.getElementById("image8").src = "gambling-game/c2.png"; document.getElementById("image8").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image8").src = "d2.png"; document.getElementById("image8").value="4"
+        document.getElementById("image8").src = "gambling-game/d2.png"; document.getElementById("image8").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image8").src = "e2.png"; document.getElementById("image8").value="5"
+        document.getElementById("image8").src = "gambling-game/e2.png"; document.getElementById("image8").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image8").src = "f2.png"; document.getElementById("image8").value="6"
+        document.getElementById("image8").src = "gambling-game/f2.png"; document.getElementById("image8").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image8").src = "g2.png"; document.getElementById("image8").value="7"
+        document.getElementById("image8").src = "gambling-game/g2.png"; document.getElementById("image8").value="7"
     }
     else{
-        document.getElementById("image8").src = "h2.png"; document.getElementById("image8").value="8"
+        document.getElementById("image8").src = "gambling-game/h2.png"; document.getElementById("image8").value="8"
     }
 }
 
 let functionimage9=()=>{
     let x = Math.random()
     if (x<=0.25){
-        document.getElementById("image9").src = "a2.png"; document.getElementById("image9").value="1"
+        document.getElementById("image9").src = "gambling-game/a2.png"; document.getElementById("image9").value="1"
     }
     else if (x<=0.47){
-        document.getElementById("image9").src = "b2.png"; document.getElementById("image9").value="2"
+        document.getElementById("image9").src = "gambling-game/b2.png"; document.getElementById("image9").value="2"
     }
     else if (x<=0.65){
-        document.getElementById("image9").src = "c2.png"; document.getElementById("image9").value="3"
+        document.getElementById("image9").src = "gambling-game/c2.png"; document.getElementById("image9").value="3"
     }
     else if (x<=0.77){
-        document.getElementById("image9").src = "d2.png"; document.getElementById("image9").value="4"
+        document.getElementById("image9").src = "gambling-game/d2.png"; document.getElementById("image9").value="4"
     }
     else if (x<=0.87){
-        document.getElementById("image9").src = "e2.png"; document.getElementById("image9").value="5"
+        document.getElementById("image9").src = "gambling-game/e2.png"; document.getElementById("image9").value="5"
     }
     else if (x<=0.95){
-        document.getElementById("image9").src = "f2.png"; document.getElementById("image9").value="6"
+        document.getElementById("image9").src = "gambling-game/f2.png"; document.getElementById("image9").value="6"
     }
     else if (x<=0.99){
-        document.getElementById("image9").src = "g2.png"; document.getElementById("image9").value="7"
+        document.getElementById("image9").src = "gambling-game/g2.png"; document.getElementById("image9").value="7"
     }
     else{
-        document.getElementById("image9").src = "h2.png"; document.getElementById("image9").value="8"
+        document.getElementById("image9").src = "gambling-game/h2.png"; document.getElementById("image9").value="8"
     }
 }
 let displayValue=()=>{
